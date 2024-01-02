@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .box {
+      border: 50px solid red;
+      width: 200px;
+      padding: 50px;
+      margin-bottom: 20px;
+    }
+    .box.green {
+      border-color: green;
+      display: none; /* 존재 자체를 지우는 것(다음 개체가 빈 자리를 채운다) */
+      /*visibility: hidden;*/ /* 존재는 하나 보이지 않는 것(자리가 남아있다) */
+    }
+    .box.blue {
+      border-color: blue;
+    }
+    .box.pumpkin {
+      border-color: #d35400;
+    }
+  </style>
+  <body>
+    <div>
+      <div class="box">Box 1</div>
+      <div class="box green">Box 2</div>
+      <div class="box blue">Box 3</div>
+      <div class="box pumpkin">Box 4</div>
+    </div>
+  </body>
+</html>
