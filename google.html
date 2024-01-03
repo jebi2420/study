@@ -10,37 +10,41 @@
   </head>
   <body>
     <div class="navbar">
-      <span>
+      <span class="nav-item">
         <a href="#">Google 정보</a>
         <a href="#">스토어</a>
       </span>
-      <span>
+      <span class="nav-item">
         <a href="#">Gmail</a>
         <a href="#">이미지</a>
         <a href="#"><i class="fa-solid fa-bars"></i></a>
-        <button>로그인</button>
+        <button class="btn-login">로그인</button>
       </span>
     </div>
 
-    <div>
+    <div class="main">
         <img src="./assets/google_logo.png" width="272">
-            <div>
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="search">
-                <i class="fa-solid fa-keyboard"></i>
-                <i class="fa-solid fa-microphone"></i>
-                <i class="fa-solid fa-camera"></i>
-            </div>
-            <div>
-                <button>Google 검색</button>
-                <button>I'm Feeling Lucky</button>
+            <div class="main-content">
+                <div class="search-box">
+                    <i class="icon-search fa-solid fa-magnifying-glass"></i>
+                    <input class="search-input" type="search">
+                    <span class="icons-right">
+                        <i class="icon-keyboard fa-solid fa-keyboard"></i>
+                        <i class="icon-mic fa-solid fa-microphone"></i>
+                        <i class="icon-camera fa-solid fa-camera"></i>
+                    </span>
+                </div>
+                <div class="btn-area">
+                    <button>Google 검색</button>
+                    <button>I'm Feeling Lucky</button>
+                </div>
             </div>
         </div>
     </div>
 
-    <div>
-        <div>대한민국</div>
-        <div>
+    <div class="footer">
+        <div class="first-line">대한민국</div>
+        <div class="second-line">
             <span>
                 <a href="#">광고</a>
                 <a href="#">비즈니스</a>

@@ -1,0 +1,184 @@
+/* css 스타일 초기화 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    font-family: arial, sans-serif;
+}
+.navbar{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+.nav-item a{
+    padding: 5px;
+    margin: 0 5px;
+    color: black;
+    text-decoration: none;
+}
+
+.btn-login{
+    width: 96px;
+    height: 36px;
+    margin-left: 5px;
+    padding: 9px 23px;
+    background: #8ab4f8;
+    border: 1px solid transparent;
+    border-radius: 6px;
+}
+
+.btn-login:hover{
+    background: #93baf9;
+}
+
+.main{
+    margin-top: 155px;
+    text-align: center;
+}
+
+.main-content{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 5px 20px 20px 20px;
+}
+
+.search-box{
+    width: 584px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    box-sizing: border-box;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+}
+
+.search-box i{
+    color: #9aa0a6;
+}
+
+.search-input{
+    width: 435px;
+    border: none;
+}
+
+.search-input:focus{
+    outline: none;
+}
+
+/* .search-input X버튼 제거 */
+input::-ms-clear,
+input::-ms-reveal{
+	display:none;width:0;height:0;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration{
+	display:none;
+}
+
+.icons-right{
+   width: 75px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.btn-area{
+    padding-top: 18px;
+}
+
+.btn-area button{
+    height: 36px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    padding: 0 16px;
+    margin: 11px 4px;
+}
+
+.btn-area button:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+  }
+
+.footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    background: #f2f2f2;
+}
+
+.first-line{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.second-line{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 30px;
+}
+
+.second-line a{
+    padding: 0 15px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.54);
+    text-decoration: none;
+}
