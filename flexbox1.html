@@ -4,7 +4,44 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>flexbox1</title>
+    <style>
+      /* css 초기화 */
+      body {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+      }
+
+      .box-container {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .box {
+        width: 200px;
+        height: 200px;
+        background: black;
+        color: white;
+      }
+
+      .boxes {
+        width: 415px;
+        display: flex;
+        justify-content: space-between;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <div class="box-container">
+      <div class="box box1">div1</div>
+      <div class="boxes">
+        <div class="box box2">div2</div>
+        <div class="box box3">div3</div>
+      </div>
+    </div>
+  </body>
 </html>
