@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flexbox4</title>
+    <style>
+      /* css 초기화 */
+      body {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+      }
+
+      .box-container {
+        position: relative;
+      }
+
+      .box {
+        width: 200px;
+        height: 200px;
+        background: black;
+        color: white;
+      }
+
+      .box2 {
+        position: absolute;
+        top: 100px;
+        left: 100px;
+        background: rgb(73, 73, 73);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box-container">
+      <div class="box box1">div1</div>
+      <div class="box box2">div2</div>
+    </div>
+  </body>
+</html>
