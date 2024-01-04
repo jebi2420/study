@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flexbox2</title>
+    <style>
+      /* css 초기화 */
+      body {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+      }
+
+      .box-containers {
+        display: flex;
+        flex-flow: column;
+      }
+
+      .container1 {
+        display: flex;
+        justify-content: flex-start;
+      }
+
+      .container2 {
+        display: flex;
+        justify-content: center;
+      }
+
+      .container3 {
+        display: flex;
+        justify-content: flex-end;
+      }
+
+      .box {
+        width: 200px;
+        height: 200px;
+        background: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box-containers">
+      <div class="box-container container1">
+        <div class="box box1">div1</div>
+      </div>
+      <div class="box-container container2">
+        <div class="box box2">div2</div>
+      </div>
+      <div class="box-container container3">
+        <div class="box box3">div3</div>
+      </div>
+    </div>
+  </body>
+</html>
