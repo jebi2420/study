@@ -4,7 +4,22 @@ body{
 
 .nav{
     height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background: black;
+}
+
+.nav-menu{
+    width: 543.57px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 17px;
+}
+
+.nav-item{
+    font-weight: 700;
+    color: white;
 }
 
 .main{
